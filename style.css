@@ -112,7 +112,7 @@ a button:hover{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* padding-top: 2cm; */
+    padding-top: 1cm;
     align-items: center;
     padding-right: 1cm;
     padding-left: 0.5cm;
