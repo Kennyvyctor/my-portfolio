@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <section id="home">
+        <div class="kv">Kenny Victor</divdiv>
+        <header class="header" id="header">
+            
+            <!-- <h1>Kenny Victor</h1> -->
+            <div class="contact">
+                <div class="contact-mail">
+                    <img src="Img/mail.webp" alt="Email" class="logo">
+                    <div>kennyvyctor@gmail.com</div>
+                </div>
+
+                <div class="contact-phone">
+                    <img src="Img/phone.png" alt="Phone" class="logo">
+                    <div>(+234)-706-220-3186</div>
+                </div>
+            </div>
+        
+
+            <nav class="topdiv">
+                <!-- <div > -->
+                    <a href="#about-me"><button>About Me</button></a>
+                    <a href="#skills"><button>Skills</button></a>
+                    <a href="#projects"><button>Projects</button></a>
+                    <a href="#recommendations"><button>Recommendations</button></a>
+                <!-- </div> -->
+            </nav>
+
+        </header>
+    </section>
+
+    <section class="main-div">
+        <!-- <section class="about-me" id="about-me"> -->
+            <div id="about-me" class="about-me">
+                <figure>
+                    <img src="Img/profile.jpg" alt="My picture" class="profile">
+                </figure>
+
+                <article>
+                    <h1>Hello, I am Kenny Victor!&#128075;</h1>
+                    <p class="info">I am a full stack developer with 2 years of experience in both application and presentation layers. I have worked on applications and microservices deployed on IBM Cloud. I am an avid user of Watson Services and have worked on Watson Assistant, NLU, Sentiment analyzer to name a few. </p>
+                </article>
+
+            </div>
+    
+        <!-- </section> -->
+    
+        <section class="skills" id="skills">
+            <h1>Skills</h1>
+            <div class="skills-wrap">
+                <div class="skills-container">
+                    <img src="Img/html5.png" alt="html" class="skills-logo">
+                    <div class="subject">HTML</div>
+                    <div class="years">2 years experience</div>
+                </div>
+
+                <div class="skills-container">
+                    <img src="Img/css.png" alt="css" class="skills-logo c-j">
+                    <div class="subject">CSS</div>
+                    <div class="years">2 years experience</div>
+                </div>
+
+                <div class="skills-container">
+                    <img src="Img/jvs.png" alt="javascript" class="skills-logo c-j">
+                    <div class="subject">JavaScript</div>
+                    <div class="years">1.5 years experience</div>
+                </div>
+
+                <div class="skills-container">
+                    <img src="Img/react.png" alt="react" class="skills-logo">
+                    <div class="subject">React</div>
+                    <div class="years">1 year experience</div>
+                </div>
+
+                <div class="skills-container">
+                    <img src="Img/node.png" alt="node.js" class="skills-logo">
+                    <div class="subject">Node.js</div>
+                    <div class="years">1 year experience</div>
+                </div>
+
+                
+
+                <div class="skills-container">
+                    <img src="Img/java.png" alt="java" class="skills-logo">
+                    <div class="subject">Java</div>
+                    <div class="years">.5 year experience</div>
+                </div>
+                
+            </div>
+    
+        </section>
+        <hr class="hr-section">
+    
+        <section class="projects" id="projects">
+            <h1>Projects</h1>
+            <div class="project-container">
+                <h3 >Chatbot</h3>
+                <ul>
+                    <li class="list">Developed a secure website integrated with chatpox for an automobile client using HTML, CSS, JavaScript, and IBM Watson Assistant</li>
+                    <hr class="hr-project">
+                </ul>
+                
+            </div>
+            
+
+            <div class="project-container">
+                <h3 class="project-header">Sentiment Analyzer</h3>
+                <ul>
+                    <li class="list">Developed and deployed a sentiment analyzer for the box reviews section of an eCommerce platform using IBM NLU</li>
+                    <hr class="hr-project">
+                </ul>
+                
+            </div>
+            
+
+            <div class="project-container">
+                <h3 class="project-header">Fashion Website</h3>
+                <ul>
+                    <li class="list">Created a styled multi-page website for a new player in the fashion industry and integrated it with a shopping cart, using stripe for payment gateway</li>
+                </ul>
+            </div>
+
+        </section>
+        <hr class="hr-section">
+    
+        <section class="recommendations" id="recommendations">
+            <h1>Recommendations</h1>
+            <div id="recommendation-wrapper" class="recommendation-wrapper">
+                <div class="recommendation-container">
+                    <b>Clove Anek</b>
+                    <p>🌟 Working alongside Kenny has been an absolute pleasure. Whether it’s crafting elegant front-end interfaces or optimizing back-end services, Kenny’s expertise shines through. His commitment to quality and seamless teamwork makes him an invaluable asset. Let’s just say he’s like a wizard with a keyboard! 🌟</p>
+                    
+                </div>
+
+                <div class="recommendation-container">
+                    <b>Drew Mason</b>
+                    <p>🚀 Kenny’s two years in the tech world have been nothing short of transformative. As a full stack developer, he’s not content with the status quo; he’s always pushing boundaries. Kenny’s curiosity fuels innovation, and I can’t wait to see what groundbreaking solutions he’ll cook up next! 🚀</p>
+                    
+                </div>
+
+                <div class="recommendation-container">
+                    <b>Clove Anek</b>
+                    <p>🎉 Meet Kenny, the embodiment of passion in code. His journey through application and web development has been a whirlwind of learning and growth. Kenny’s enthusiasm is contagious, and his commitment to excellence is unwavering. If you’re looking for a developer who brings both skill and zeal to the table, Kenny’s your guy! 🎉</p>
+                    
+                </div> 
+
+            </div>
+
+        </section>
+        <hr>
+
+        <section class="comment">
+            <div class="comment-header">Leave a Recommendation</div>
+
+            <input type="text" id="nameInput" class=" name" placeholder="Enter your name (Optional)"> 
+            <br>
+        
+            <textarea name="message" id="messageInput" class="message" placeholder="Type your message here..."></textarea>        
+            
+            <button type="submit" id="submit" onclick="addComment()">Submit</button>
+ 
+        </section>
+
+    </section>
+
+
+    <div id="go-home" class="iconbutton" onclick="scrollToTop()">
+        <a href="#ome">
+            <img src="Img/home.png" alt="home-image"/>
+        </a>
+    </div>    
+
+    <div class="main-iconbutton">
+            <img src="Img/home.png" alt=""/>
+    </div>
+
+    <!-- <script>
+        document.getElementById('go-home').addEventListener('click', function() {
+            body.location.href = 'index.html#';
+        });
+    </script> -->
+    
+</body>
+</html>
